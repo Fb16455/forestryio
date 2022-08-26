@@ -30,7 +30,7 @@ fields:
     required: true
     date_format: ''
     time_format: 
-    display_utc: true
+    display_utc: false
   default: now
   hidden: false
   label: Date
