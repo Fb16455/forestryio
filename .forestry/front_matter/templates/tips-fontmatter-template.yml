@@ -28,7 +28,7 @@ fields:
   type: datetime
   config:
     required: true
-    date_format: ''
+    date_format: YYYY-MM-DD
     time_format: 
     display_utc: false
   default: now
