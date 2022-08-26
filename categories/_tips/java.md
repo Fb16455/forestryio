@@ -6,3 +6,6 @@ description: Introdução ao Java
 published: false
 
 ---
+``` php
+echo "Hello, World!"
+```
