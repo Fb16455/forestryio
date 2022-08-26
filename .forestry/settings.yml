@@ -9,6 +9,8 @@ sections:
   label: Tips
   create: documents
   match: "**/*"
+  templates:
+  - tips-fontmatter-template
 - type: jekyll-pages
   label: Pages
   create: all
