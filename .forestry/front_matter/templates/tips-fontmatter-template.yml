@@ -24,7 +24,7 @@ fields:
     max: 150
   label: Description
   description: Describes the content of the page.
-- name: Date
+- name: date
   type: datetime
   config:
     required: true
