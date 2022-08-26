@@ -35,3 +35,5 @@ fields:
   hidden: true
   label: Date
   description: Set the publishing date for the post.
+pages:
+- categories/_tips/battling-drugs-an-infinity-war.md
