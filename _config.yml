@@ -59,6 +59,13 @@ plugins:
 # Using collections_dir won't work well with post_url and link tags
 collections_dir: categories
 collections:
+  tips:
+    title: "tips"
+    description: "Dicas e truques."
+    thumbnail: "./assets/imgs/java-thumbnail.png"
+    output: true
+    permalink: "/java/:title"
+    card: true
   diverse:
     title: "Diverse"
     description: "Random posts"
