@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: categories/_posts
+  path: "./categories/_posts"
   label: Posts in Categories
   create: documents
   match: "**/*"
