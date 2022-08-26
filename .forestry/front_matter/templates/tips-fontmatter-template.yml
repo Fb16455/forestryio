@@ -32,7 +32,7 @@ fields:
     time_format: 
     display_utc: true
   default: now
-  hidden: true
+  hidden: false
   label: Date
   description: Set the publishing date for the post.
 pages:
