@@ -2,6 +2,21 @@
 label: Tips fontmatter template
 hide_body: false
 fields:
+- name: layout
+  type: text
+  config:
+    required: true
+  label: Layout
+  default: post
+  description: Determine which layout will be used to structured the page containing
+    the contents on the file.
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: Describes a title for the page. This will appear as the title for the
+    content text.
 - name: description
   type: text
   config:
@@ -9,14 +24,14 @@ fields:
     max: 150
   label: Description
   description: Describes the content of the page.
-- name: published
+- name: Date
   type: datetime
-  description: ''
   config:
     required: true
     date_format: ''
     time_format: 
     display_utc: false
-  label: Published
   default: now
   hidden: true
+  label: Date
+  description: Set the publishing date for the post.
