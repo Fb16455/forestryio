@@ -1,0 +1,41 @@
+---
+label: Tips fontmatter template
+hide_body: false
+fields:
+- name: layout
+  type: text
+  config:
+    required: true
+  label: Layout
+  default: post
+  description: Determine which layout will be used to structured the page containing
+    the contents on the file.
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: Describes a title for the page. This will appear as the title for the
+    content text.
+- name: description
+  type: text
+  config:
+    required: true
+    max: 150
+  label: Description
+  description: Describes the content of the page.
+- name: date
+  type: datetime
+  config:
+    required: true
+    date_format: YYYY-MM-DD
+    time_format: 
+    display_utc: false
+  default: now
+  hidden: false
+  label: Date
+  description: Set the publishing date for the post.
+pages:
+- categories/_tips/battling-drugs-an-infinity-war.md
+- categories/_tips/java.md
+- categories/_tips/job-s-crisis.md
