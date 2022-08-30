@@ -1,8 +1,9 @@
 ---
 layout: post
-Date: 2022-08-26 03:51:45 +0000
-title: Job's Crisis
+Date: '2022-08-26T03:51:45.000+00:00'
+title: Astrology = Bullshit
 description: We are facing new challenges to find jobs now.
+date: 2022-08-30 03:00:00 +0000
 
 ---
-It is not rare we hear news annoucing that a big number of jobs has been created. And that is good news. More jobs, means more room for people making money, which means more possibilities.
+How could twins, born almost at the same time, have such a different character. 
